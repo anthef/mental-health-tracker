@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect   # Tambahkan import redirect di baris ini
+from django.shortcuts import render, redirect  
 from main.forms import MoodEntryForm
 from main.models import MoodEntry
 from django.http import HttpResponse
