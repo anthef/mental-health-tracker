@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-wtd1%uupx3m4-svhgri$%#w6sdb!p5$vxvc@4!hc+j4pxt#@)0
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "anthony-edbert-mentalhealthtracker.pbp.cs.ui.ac.id",'http://anthony-edbert-mentalhealthtracker.pbp.cs.ui.ac.id/','https://anthony-edbert-mentalhealthtracker.pbp.cs.ui.ac.id/']
+ALLOWED_HOSTS = ["10.0.2.2","localhost", "127.0.0.1", "anthony-edbert-mentalhealthtracker.pbp.cs.ui.ac.id",'http://anthony-edbert-mentalhealthtracker.pbp.cs.ui.ac.id/','https://anthony-edbert-mentalhealthtracker.pbp.cs.ui.ac.id/']
 
 
 # Application definition
